@@ -1,7 +1,14 @@
-.dev-banner{background:#163c48;color:#fff;text-align:center;padding:9px 12px;font:14px/1.4 system-ui,sans-serif}
+.dev-banner{display:flex;flex:none;align-items:center;justify-content:center;gap:8px;background:#163c48;color:#fff;text-align:center;padding:2px 8px;font:12px/1.4 system-ui,sans-serif}
+.dev-banner a{color:inherit;white-space:nowrap}
+.dev-banner-dismiss{flex:none;display:grid;place-items:center;width:28px;height:28px;padding:0;background:transparent;border:0;color:inherit;font:22px/1 system-ui,sans-serif;cursor:pointer}
+.dev-banner[hidden]{display:none}
+.dev-banner-dismiss:focus-visible,.dev-banner a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.gp-audio-status{flex:none;margin:0;padding:6px 10px;background:#163c48;color:#fff;font:14px/1.4 system-ui,sans-serif}
+.gp-audio-status[hidden]{display:none}
+.play-button:focus-visible circle{stroke:#fff;stroke-width:3}
 
 /* Keep save status and preferences in one row outside the instrument/Notebook. */
-body{display:flex;flex-direction:column}
+body{display:flex;flex-direction:column;height:100%;height:100dvh}
 body>.container{flex:1;min-height:0;height:auto!important}
 .privacy-footer.privacy-tool-footer{position:static;flex:none;box-sizing:border-box;width:100%;max-width:none!important;min-height:34px;margin:0;text-align:right;border-radius:0}
 .gp-status-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 10px!important;background:#fff;border-top:1px solid #b5c0c8}
@@ -104,7 +111,7 @@ body>.container{flex:1;min-height:0;height:auto!important}
 .main-menu .tray-option.active .continue-icon{background-image:url(../img/share-active.svg)}
 .main-menu button.tray-option:hover{background-color:#6359c1!important}
 .main-menu button.tray-option:focus-visible{outline:3px solid #fff;outline-offset:-2px}
-.main-menu .tray-option.active{box-shadow:inset 0 -3px #fff}
+.main-menu .tray-option.active{box-shadow:none}
 .main-menu.horizontal .tray-option{flex:1;min-width:0;width:auto!important;height:90px!important;margin:0;word-break:normal}
 .main-menu.horizontal button.logo{flex:none;width:66px;min-width:44px}
 @media(max-width:540px){

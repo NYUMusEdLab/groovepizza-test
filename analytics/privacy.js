@@ -17,7 +17,7 @@
     'gp-legacy-20261018': {tool:'groove_pizza',release:'entry-3855bcb1fdfed1c7',
       url:'https://apps.musedlab.org/groovepizza/',title:'Groove Pizza'},
     'gp-preview-20261020': {tool:'groove_pizza',release:'entry-f61c08c0e0ba50be',
-      url:'https://nyumusedlab.github.io/groovepizza-dev-site/',title:'Groove Pizza development preview'},
+      url:'https://nyumusedlab.github.io/groovepizza-test/',title:'Groove Pizza development preview'},
     'cmsd-v1-20261018': {tool:'cmsd',release:'entry-1b6ea5975282fc52',
       url:'https://apps.musedlab.org/virtualduet/cmsd/',title:'CMSD'},
     'cmsd-v2-20261020': {tool:'cmsd',release:'entry-c84aa61118820c28',
