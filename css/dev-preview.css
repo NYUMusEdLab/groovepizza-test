@@ -35,7 +35,6 @@ body>.container{flex:1;min-height:0;height:auto!important}
 .notebook-section h3{font-size:16px;margin:0 0 8px}
 .notebook-versions-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
 .notebook-versions-heading h3{margin:0}
-.notebook-versions-heading #save-version{flex:none;width:auto;margin:0;border-color:#fff;font-weight:700}
 .notebook-menu .notebook-hint{font-size:12px;line-height:1.4;color:#e1dff4}
 .notebook-menu .notebook-message:empty{display:none}
 .notebook-menu #notebook-versions{list-style:none;padding:0;margin:8px 0 0}
